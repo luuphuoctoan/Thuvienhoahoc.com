@@ -1,0 +1,980 @@
+*{
+    width:auto;
+    height:auto;
+    margin: 1; 
+}
+* {
+    scrollbar-width: 10em;
+    /* 75px */
+    scrollbar-color: #1349f865 #DFE9EB;
+  }
+  
+  /* Chrome, Edge and Safari */
+  *::-webkit-scrollbar {
+    width: 50px;
+    width: 50px;
+  }
+  *::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #DFE9EB;
+    border: 10px inset #FFFFFF;
+  }
+  
+  *::-webkit-scrollbar-track:hover {
+    background-color: #1100ff;
+  }
+  
+  *::-webkit-scrollbar-track:active {
+    background-color: #756bff;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background-color: #A19EA6;
+    border: 10px dotted #FFFFFF;
+  }
+  
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #72A391;
+  }
+  
+  *::-webkit-scrollbar-thumb:active {
+    background-color: #A3A3A3;
+  }
+body{
+    background-color:rgb(228, 228, 228);
+}
+.hinhnen{
+    width: auto;
+    height: auto;
+    color:rgba(224, 222, 219, 0.945);
+}
+.header{
+    z-index: 4;
+    position: fixed; /* Sua */
+    width: 100%;
+    height: 3.5em;
+    /* 50px */
+    top: 0; left: 0;
+    background-color: #007bff;
+    display: block;
+    border-bottom: 1px solid #e6dddd;
+     
+}
+.container{
+    border-radius: 5px; 
+    position: absolute; 
+    left: 22em;
+    /* 350px */
+    top:2.2em; 
+    /* 35px */
+    width:47em;
+    /* 770px */
+    height:3.2em; 
+    /* 50px */
+    background-color: #17a2b8;
+    display:block;
+}
+/* background Web trang chu */
+.background{
+    z-index: -1;
+    position: absolute;
+    left: 15em;
+    /* 250px */
+    top:3.5em;
+    /* 50px */
+    bottom: auto;
+    right: 3.5em;
+    /* 50px */
+    border-radius: 3.5em;
+    /* 50px */
+}
+.background2{
+    top:12.8em;
+    /* 200px */
+    left:9.5em;
+    /* 160px */
+    right:2em;
+    /* 76px */
+    position: absolute;
+    width: 72em;
+    /* 1150px */
+    height: 128em; 
+    /* 2000px */
+    background-color: #ffffff;
+    border-radius: 10px;
+
+}
+/* background Web Bang nguyen to */
+.background3{
+    top:10.5em;
+    /* 165px */
+    left:9.5em;
+    /* 160px */
+    right:10em;
+    /* 75px */
+    position: absolute;
+    width: 72em;
+    /* 1150px */
+    height: 100em;
+    /* 2000px */
+    background-color: #ffffff;
+    border-radius: 10px; 
+    border-inline-color: 1px #000000;
+}
+
+/* Phần dòng chữ 'Chào mừng bạn đến với Thư Viện Hóa Học' */
+p{
+    top: 80px;
+    font-style:italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.3em;
+    /* 35px */
+    text-align: center;
+    padding-top:1.4em;
+    /* 50px */
+    color: #ffffff62;
+    text-align: center;
+    line-height: 2.4em;
+    /* 80px */
+    font-family: arial;
+    letter-spacing:.1em;
+    text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e;
+}
+/* m */
+header.nav{
+    margin: 5px 10%;
+    background: none;
+}
+nav>ul{
+    display: flex;
+}
+
+nav>ul li{
+    list-style: none;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    padding: 1.4 1.4em;
+}
+nav> ul li a{
+    font-family: tahoma;
+    text-size-adjust: 5em;
+    /* 100px */
+    text-align: center;
+    display: block;
+    padding: 0 25px;
+    line-height: 25px;
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav li li:first-child a{
+    border-left: none;
+}
+.Doimau:hover{
+    color:#ffcf40;
+}
+.chu_chay{
+    z-index:-1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top:1em;
+    /* 10px */
+    height: 2em;
+    /* 25px */
+    width: -3.2em;
+    /* -100px */
+}
+.BNT{
+    z-index: 2;
+    font-family:"Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,"AppleGothic",sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    height:50px;
+    padding-top: 90px;
+    color: #131313;
+    background-color: #e7e5e4;
+    letter-spacing: .15em;
+    text-shadow: 1px -1px 0 #767676,-1px 2px 1px #737272;
+    position: relative;
+    top: 0px;
+    animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+}   
+@keyframes slidein {
+    0%{
+        top: -50px;
+        with: 50%;
+    }
+    100%{
+        top: 0px;
+        with:100%;
+    }
+}
+
+.bangnguyento{
+    top: 13.5em;
+    /* 215px */
+    left:15em;
+    /* 250ox */
+    position: absolute;
+}
+.luoc_dan1{
+    z-index: 2;
+    height: 23.5em;
+    /* 360px */
+    width: 19em;
+    /* 300px */
+    top: 13em;
+    /* 215px */
+    left: 50em;
+    /*  */
+    right: 15px;
+    background-color: #ebd8d8d0;
+    border-radius: 10px; 
+    border-inline-color: 1px #000000;
+    position: absolute;
+}
+ul#main-menu {
+    display: flex;
+}
+ul#main-menu a {
+    text-transform: uppercase;
+    padding: 10px 20px;
+    display:block;
+}
+.chu1{
+    top: 34em;
+    /* 555px */
+    left: 17em;
+    /* 230px */
+    position: absolute;    
+}
+.Hinh_mendeleev{
+    z-index: 3;
+    top: 13.5em;
+    /* 225px */
+    left: 52em;
+    /* 800px */
+    height: 20em;
+    /* 310px */
+    position: absolute;
+    display: flex;
+    border-radius: 10px; 
+}
+.ten_nha_khoahoc{
+    z-index: 3;
+    top: 34em;
+    /* 540px */
+    left: 51em;
+    /* 770em */
+    display: flex;
+    position: absolute;
+}
+.tua_de{
+    top: 11em;
+    /* 170px */
+    left: 15em;
+    /* 300px */
+    z-index: 3;
+    display: flex;
+    position: absolute;
+    padding-right: 5em;
+    /* 250px */
+}
+.thong_tin{
+    z-index: 3;
+    top: 37.5em;
+    /* 600px */
+    left: 10.2em;
+    /* 180px */
+    display: flex;
+    position: absolute;
+    color:#1f018a;
+}
+.thong_tin2{
+    z-index: 3;
+    top: 50em;
+    /* 795px */
+    left: 10.2em;
+    /* 180px */
+    display: flex;
+    position: absolute;
+    color:#1f018a;
+}
+.doan_thong_tin1{
+    padding-right: 13em;
+    /* 190px */
+    text-align: justify;
+    text-indent: 50px;
+    /* 50px */
+    z-index: 3;
+    top: 40em;
+    /* 640px */
+    left: 11.3em;
+    /* 180px */
+    display: flex;
+    position: absolute;
+}
+.doan_thong_tin2{
+    padding-right: 190px;
+    text-align: justify;
+    text-indent: 50px;
+    z-index: 3;
+    top: 755px;
+    left: 180px;
+    display: flex;
+    position: absolute;
+    list-style: none;
+
+}
+.doan_thong_tin3{
+    padding-right: 500px;
+    text-align: justify;
+    text-indent: 50px;
+    z-index: 3;
+    top: 838px;
+    left: 180px;
+    display: flex;
+    position: absolute;
+}
+.hinh_thongtin3{
+    display: flex;
+    position: absolute;
+    height: 275px;
+    width: 100px;
+    top: 839px;
+    left: 1000px;
+    padding-right: 200px; 
+}
+.Baivietkhac{
+    /* XEM THÊM */
+    z-index: 1;
+    display: flex;
+    position: absolute;
+    top: 1150px;
+    left: 220px;
+    padding-right: 250px;
+    color: #202020;
+    font-weight: bold;
+    /* background-color: #2d2d2d; */
+    color:#1f018a;   
+    text-align: center;
+}
+.khung:hover{
+    z-index: 3;
+    display: flex;
+    position: absolute;
+    color:#002853;
+}
+.khung{
+    z-index: 1;
+    display:flex;
+    position: absolute;
+    top: -11px;
+    left: -10px;
+    height: 50px;
+    width: 750px;
+    background-color:rgba(216, 241, 255, 0.11);
+}
+.Chu_dau{
+    font-size: 23px;
+    z-index: 4;
+    top: 5px;
+    left: 500px;
+    color: #ffffff;
+    display: block;
+    position: fixed;
+    height: 50px;
+    width: 380px;
+}
+/* Box tìm kiếm */
+.container-1{
+    display: flex;
+    position: absolute;
+    z-index: 4;
+    top:-215px;
+    left: 1060px;
+    width: 200px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.container-1 input#search{
+    display: flex;
+    position: fixed;
+    width: 200px;
+    height: 28px;
+    background: #dcdfe4cc;
+    border: none;
+    font-size: 12pt;
+    float: left;
+    color: #24292e;
+    padding-left: 43px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.container-1 input#search::-webkit-input-placeholder {
+    color: #65737e;
+ }
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+ }
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+ }
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+}
+.container-1 .icon{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #4f5b66;
+}
+.container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{
+    outline:#000000;
+    background: #ffffff;
+}
+.icon_timkiem{
+    z-index: 4;
+    display: flex;
+    position: fixed;
+    top:13px;
+    left: 1075px;
+    height: 30px;
+    width: 30px;
+}
+.icon_timkiem:hover{
+    height: 40px;
+    width: 40px;
+    top: 8px;
+    left: 1070px;
+    border:10px;
+    border-color: #000000;
+}
+/* TRANG WEB NGUYEN TO HYDROGEN */
+.Trang_ke_helium{
+    z-index: 7;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    top: 2055px;; 
+    left: 450px;
+}
+.Trang_ke_helium:hover{
+    border:5px solid #1dcaff80;
+}
+
+.hydrogen{
+    color:#000000;
+    display: flex;
+    position: absolute;
+    top: 1240px;
+    left: 200px;
+     display:inline-block;
+    border:1px solid #0dd6fa;
+    background-color:#0dd6fa;
+    padding:10px 12px;
+    box-shadow:2px 2px 5px #6c6969;
+    text-decoration:none;
+    border-radius:3px;
+    color:white;
+    list-style: none;
+}
+.hydrogen:hover{
+    border:1px solid #1dcaff;
+    background-color: #1dcaff;
+}s
+.hydrogen:active{
+    border:1px solid #abafaf;
+    background-color:#abafaf;
+    color:#000000;
+}
+.tieu_de_hydrogen1{
+    display: flex;
+    position: absolute;
+    top: 225px;
+    left: 230px;
+    font-weight: bold;
+}
+.gt_hydrogen{
+    font-size: 30px ;
+    display: flex;
+    position: absolute;
+    top: 290px;
+    left: 250px;
+}
+.hinh_nt_hydrogen{
+    z-index: 5px;
+    display: flex;
+    position: absolute;
+    top: 225px;
+    left: 800px;
+}
+.chu_khainiem{
+    display: flex;
+    position: absolute;
+    top: 510px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.khainiem_hydrogen{
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    left: 250px;
+    padding-right: 260px;
+    top: 550px;
+}
+.xemthem_mendeleev{
+    padding-right: 190px;
+    text-align: justify;
+    text-indent: 50px;
+    z-index: 3;
+    top: 1115px;
+    left: 180px;
+    display: flex;
+    position: absolute;
+    list-style: none; 
+}
+.Tinh_chat_vl_hydrogen1{
+    display: flex;
+    position: absolute;
+    top: 700px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tinh_chat_vl_hydrogen2{
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    left: 250px;
+    padding-right: 260px;
+    top: 740px;
+}
+.Tinh_chat_hh_hydrogen1{
+    display: flex;
+    position: absolute;
+    top: 890px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tinh_chat_hh_hydrogen2{
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    left: 250px;
+    padding-right: 260px;
+    top: 930px;
+}
+.Tinh_chat_hh_1_hydrogen{
+    display: flex;
+    position: absolute;
+    top: 1020px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 27px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Tinh_chat_hh_2_hydrogen{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1060px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.luu_y_hydrogen{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1200px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pt_hydrogen1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1125px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Tinh_chat_hh_3_hydrogen{
+    display: flex;
+    position: absolute;
+    top: 1235px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 27px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Tinh_chat_hh_4_hydrogen{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1275px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pt_hydrogen2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1310px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cau_hinh_hydrogen{
+    display: flex;
+    position: absolute;
+    top: 1355px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hinh_electron_H{
+    top: 1400px;
+    left: 260px;
+    display: flex;
+    position: absolute;
+    height: 225px;
+    width: 225px;
+}
+.luocdan_electron_H{
+    display: flex;
+    position: absolute;
+    top: 1400px;
+    left: 550px;
+    font-size: 28px;
+}
+.luocdan_electron_H2{
+    display: flex;
+    position: absolute;
+    top: 1430px;
+    left: 550px;
+    font-size: 28px;
+}
+.ung_dung_hydrogen{
+    display: flex;
+    position: absolute;
+    top: 1645px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ung_dung_hydrogen1{
+    z-index: 6;
+    display: flex;
+    position: absolute;
+    top: 1690px;
+    left: 220px;
+    padding-right: 256px;
+    text-align: justify;
+}
+.dieu_che_hydrogen{
+    display: flex;
+    position: absolute;
+    top: 1867px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dieu_che_hydrogen1{
+    z-index: 6;
+    display: flex;
+    position: absolute;
+    top: 1905px;
+    left: 220px;
+    padding-right: 256px;
+    text-align: justify;
+}
+.Next1{
+    z-index: 7;
+    display: flex;
+    position: absolute;
+    top: 2060px;
+    left: 220px;
+}
+.Trang_ke_lithium{
+    z-index: 7;
+    font-size: 30px;
+    display: flex;
+    position: absolute;
+    top: 2055px;; 
+    left: 450px;
+}
+.Trang_ke_helium:hover{
+    border:5px solid #1dcaff80;
+}
+/* TRANG WEB NGUYEN TO HELIUM */
+
+
+/* Lithium */
+.lithium{
+    color:#000000;
+    display: flex;
+    position: absolute;
+    top: 1240px;
+    left: 598px;
+     display:inline-block;
+    border:1px solid #0dd6fa;
+    background-color:#0dd6fa;
+    padding:10px 12px;
+    box-shadow:2px 2px 5px #6c6969;
+    text-decoration:none;
+    border-radius:3px;
+    color:white;
+    list-style: none;
+    width: 155px;
+}
+.lithium:hover{
+    border:1px solid #1dcaff;
+    background-color: #1dcaff;
+}
+.lithium:active{
+    border:1px solid #abafaf;
+    background-color:#abafaf;
+    color:#000000;
+}
+.hinh_nt_lithium{
+    z-index: 5px;
+    display:flex;
+    position: absolute;
+    top: 230px;
+    left: 710px;
+    height: 210px;
+}
+.tinh_chat_hh_lithium{
+    display: flex;
+    position: absolute;
+    margin: 1;
+    top: 1000;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.khainiem_helium{
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    left: 250px;
+    padding-right: 260px;
+    top: 550px;
+}
+.Tinh_chat_vl_helium1{
+    display: flex;
+    position: absolute;
+    top: 674px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tinh_chat_vl_helium2{
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    left: 250px;
+    padding-right: 260px;
+    top: 710px;
+}
+.Tinh_chat_hh_helium1{
+    display: flex;
+    position: absolute;
+    top: 810px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tinh_chat_hh_helium2{
+    display: flex;
+    position: absolute;
+    text-align: justify;
+    left: 250px;
+    padding-right: 260px;
+    top: 850px;
+}
+.Tinh_chat_hh_1_helium{
+    display: flex;
+    position: absolute;
+    top: 940px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 27px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Tinh_chat_hh_2_helium{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1060px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.luu_y_helium{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1200px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pt_helium1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1125px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Tinh_chat_hh_3_helium{
+    display: flex;
+    position: absolute;
+    top: 1235px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 27px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Tinh_chat_hh_4_helium{
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1275px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pt_helium2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    display: flex;
+    position: absolute;
+    top: 1310px;
+    left: 250px;
+    padding-right:260px;
+    color:#000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cau_hinh_helium{
+    display: flex;
+    position: absolute;
+    top: 975px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.hinh_electron_He{
+    top: 1020px;
+    left: 260px;
+    display: flex;
+    position: absolute;
+    height: 225px;
+    width: 225px;
+}
+.luocdan_electron_He{
+    display: flex;
+    position: absolute;
+    top: 1020px;
+    left: 550px;
+    font-size: 28px;
+}
+.luocdan_electron_He2{
+    display: flex;
+    position: absolute;
+    top: 1055px;
+    left: 550px;
+    font-size: 28px;
+}
+.ung_dung_helium{
+    display: flex;
+    position: absolute;
+    top: 1255px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ung_dung_helium1{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 1290px;
+    left: 220px;
+    padding-right: 256px;
+    text-align: justify;
+}
+.dieu_che_helium{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 1440px;
+    left: 220px;
+    font-weight: bold;
+    font-size: 30px;
+    color:#002853;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dieu_che_helium1{
+    z-index: 2;
+    display: flex;
+    position: absolute;
+    top: 1480px;
+    left: 220px;
+    padding-right: 256px;
+    text-align: justify;
+}
